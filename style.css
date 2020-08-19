@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: fantasy;
+    font-weight: bold;
+}
+body
+{
+    background-image: url(bgImg.jpg);
+    background-size: 100% 100%;
+}
+#container
+{
+   height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form
+{
+    width: 410px;
+    height: 580px;
+    box-shadow: 20px 18px 20px 5px black;
+    background-color: #eaedef;
+    border-radius: 10px;
+}
+#display_answer
+{
+    width: inherit;
+    height: 130px;
+    font-size: 4rem;
+    text-align: right;
+    outline: none;
+    border: none;
+    background-color: #eaedef;
+    border-radius: 10px;
+}
+.layer1
+{
+    width: 400px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+.layer2
+{
+    width: inherit;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+input {flex: 1;}
+.num , .operate
+{
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    margin: 5px;
+    background-color: #5c85da;
+}
+.num:active , operate:active
+{
+    outline: none;
+    border: none;
+    font-size: 11px;
+}
+.clearbutton
+{
+    background-color: #b8c5c5;
+}
+.equal
+{
+    background-color: #d48518;
+}
+.backspace
+{
+    background-color: #b8c5c5;
+}
+.clearbutton , .equal , .backspace
+{
+    margin: 5px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+.clearbutton:active , .equal:active , .backspace:active
+{
+ font-size: 11px;   
+}
+#display_answer
+{
+    cursor: auto;
+}
+.clearbutton , .equal , .backspace , .num , .operate
+{
+    cursor: pointer;
+}
+#plus
+{
+    background-color: #1fb759;
+}
+#sub
+{
+    background-color: yellow;
+}
+#mul
+{
+    background-color: #d618cb;
+}
+#divid
+{
+    background-color: #0ae2ca
+}
+#mod
+{
+    background-color: #9e3acc;
+}
